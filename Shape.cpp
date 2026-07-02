@@ -33,4 +33,19 @@ int main() {
         if (shape == 0)
             std::cout << "A smooth circle appears.\n";
         else if (shape == 1)
-            std::cout <
+            std::cout << "Sharp triangle detected.\n";
+        else
+            std::cout << "Solid square formed.\n";
+
+        std::cout << "Score: " << score << "\n";
+    }
+
+    std::cout << "\nFinal Score: " << score << "\n";
+
+    if (score > 60)
+        std::cout << "Shape master!\n";
+    else
+        std::cout << "Keep practicing!\n";
+
+    return 0;
+}
